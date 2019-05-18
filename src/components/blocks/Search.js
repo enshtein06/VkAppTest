@@ -16,7 +16,7 @@ const Search = (props) => {
   const { id, fields } = props;
   return (
     <Panel id={id}>
-      <PanelHeader>Поиск туров</PanelHeader>
+      <PanelHeader>Поиск</PanelHeader>
       <FormLayout>
         <SelectMimicry {...fields.from}>{fields.from.value}</SelectMimicry>
         <SelectMimicry {...fields.to}>{fields.to.value}</SelectMimicry>
